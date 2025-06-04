@@ -178,18 +178,18 @@ const ResumeButton = styled.a`
 `;
 
 const Img = styled.img`
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  max-width: 400px;
-  max-height: 400px;
+  object-fit: cover;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
+    width: 240px;
+    height: 240px;
   }
 `;
+
 
 const HeroBg = styled.div`
   position: absolute;
@@ -256,7 +256,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src={HeroImg} alt="Md Vasim" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
