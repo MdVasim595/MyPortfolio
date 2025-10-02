@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/MdVasim595",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+    "https://drive.google.com/file/d/1p6fiB8fp78LqQlLjzzbxDq2XgYBLAXyu/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/md-vasim/",
   twitter: "https://twitter.com/",
   insta: "https://www.instagram.com/md_.vasim/",
@@ -621,4 +621,5 @@ export const projects = [
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
 ];
+
 
